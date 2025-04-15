@@ -1,0 +1,21 @@
+body {
+    background-color: burlywood;
+}
+
+#Navigate ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+
+#Navigate ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#Navigate li:hover{
+    background-color: red;
+    color: whitesmoke;
+}

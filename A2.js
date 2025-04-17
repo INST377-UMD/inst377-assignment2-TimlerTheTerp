@@ -1,16 +1,17 @@
-/*REQUIRED BELOW*/
 if (annyang) {
-// Let's define a command.
-const commands = {
-    'Home Page': () => { window.location.href = "Assignment-2.html"; },
-    'Stocks Page': () => { window.location.href = "Stocks.html"; },
-    'Dogs Page': () => { window.location.href = "Dogs.html"; }
-};
+    // Let's define a command.
+    const commands = {
+      'hello': () => { alert('Hello world!'); }
+    };
 
-// Add our commands to annyang
-annyang.addCommands(commands);
+    //change the background color
+    
+    document.body.style.backgroundColor = "white";
 
-// Start listening.
-annyang.start();
-}
-/*REQUIRED ABOVE*/ 
+  
+    // Add our commands to annyang
+    annyang.addCommands(commands);
+  
+    // Start listening.
+    annyang.start();
+  }

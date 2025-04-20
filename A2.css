@@ -114,3 +114,15 @@ body {
     box-shadow: none;
     transform: translateY(0);
   }
+
+  /*Quote*/
+  #Quote {
+    background-color: brown;
+    width: 100px;
+    border: 10px solid whitesmoke;
+    padding: 50px;
+    margin: 30px;
+  }
+  .Quote h2 {
+    text-align: center;
+}

@@ -2,8 +2,11 @@
     <head>
         <title>Assignment 2</title>
         <link rel="stylesheet" href="A2.css">
-        <!--Import Annyang-->
-        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+
+         <!--REQUIRED API -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+         <script src=""></script>
+
         <!--Javascript-->
         <script src="A2.js" defer></script>
     </head>
@@ -29,12 +32,16 @@
         <h2>Please Interact with the Website</h2>
 
         <!--Selection Boxes-->
-        <div class = "Selection">
-            <button class="Stocks-Button" role="button">Stocks</button>
-            <button class="Dogs-Button" role="button">Dogs</button>
+        <div id = "Selection">
+            <button class="Stocks-Button" role="button" onclick="location.href='Stocks.html'">Stocks</button>
+            <button class="Dogs-Button" role="button" onclick="location.href='Dogs.html'">Dogs</button>
         </div>
 
+        <!--Quote Generator-->
+        <div id = "Quote">
+            <h2>Quote of the Day!</h2>
+            <blockquote id="Quoteplacer"></blockquote>
         </div>
-
     </body>
+
 </html>

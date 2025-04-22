@@ -5,7 +5,6 @@
 
          <!--REQUIRED API -->
          <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
-         <script src=""></script>
 
         <!--Javascript-->
         <script src="A2.js" defer></script>
@@ -19,13 +18,14 @@
         <h2>Activities Page</h2>
 
         <!--Navigation-->
-        <div id ="Navigate">
+        <div class ="Navigate">
             <ul>
                 <li><a href="Assignment-2.html">Home</a></li>
                 <li><a href="Stocks.html">Stocks</a></li>
                 <li><a href="Dogs.html">Dogs</a></li>
             </ul>
         </div>
+            <button onlick = "Annyang()" id ="Toggle">Voice Toggle</button>
         <!--REQUIRED ADOVE-->
 
         <!--Another Header-->
@@ -38,9 +38,10 @@
         </div>
 
         <!--Quote Generator-->
-        <div id = "Quote">
+        <div class = "QuoteBox">
             <h2>Quote of the Day!</h2>
-            <blockquote id="Quoteplacer"></blockquote>
+            <p id ="Quote"></p>
+            <small id ="Author"></small>
         </div>
     </body>
 

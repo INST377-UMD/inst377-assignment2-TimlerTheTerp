@@ -1,4 +1,6 @@
 /*REQUIRED BELOW */
+function Annyang() {
+  let btn = document.querySelector('.VoiceButton');
 if (annyang) {
     // Let's define a command.
     const commands = {

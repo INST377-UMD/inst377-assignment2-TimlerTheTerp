@@ -1,4 +1,4 @@
-*REQUIRED BELOW */
+/*REQUIRED BELOW */
 function Annyang() {
   if (annyang) {
       // Let's define a command.
@@ -26,11 +26,18 @@ function Annyang() {
       annyang.start();
     }
   }
+
+function NoAnnyang() {
+  if(annyang) {
+    annyang.abort()
+  }
+}
 /*REQUIRED ABOVE */
 
 function waiting() {
   let wait = document.getElementById("Quote");
   wait.innerHTML = "Loading.....";
+ 
 
 
  
@@ -61,7 +68,7 @@ function GenerateQuote() {
     let author = Firstquote.a;
 
     placer.innerHTML = `${quote}`;
-    writer.innerHTML = `- ${author}`;
+    writer.innerHTML = `${author}`;
 }, 5000);
 
 }

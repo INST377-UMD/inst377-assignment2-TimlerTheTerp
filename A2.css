@@ -20,16 +20,7 @@ body {
   color: whitesmoke;
 }
 
-.Voice {
-  position: relative;
-  bottom: 2.5%;
-  left: 2425;
-  /*laptop:
-  bottom: 5.5%;
-  left: 1150;
-  PC: bottom: 2.5%;
-  left: 2425;; */
-}
+
 
 
 /*Left Button*/
@@ -114,6 +105,94 @@ transform: translateY(0);
 
 .Dogs-Button:disabled {
   pointer-events: none;
+}
+
+.Dogs-Button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.Dogs-Button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/*Quote*/
+.QuoteBox {
+  background-color: brown;
+  width: 500px;
+  border: 10px solid whitesmoke;
+  padding: 25px;
+  margin: 30px;
+  position: relative;
+  top: 11.5%;
+  left: 315px;
+  
+/*Laptop:
+  top: 18%;
+  left: 285px;
+  PC:
+  top: 40%;
+  left: 900px;*/
+}
+
+.QuoteBox h2{
+  position: relative;
+  top: -45px; 
+  text-align: center;
+}
+
+#Quote {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+
+}
+
+#Author {
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 35px;
+}
+
+/*Annyang Box */
+.AnnyangBox {
+background-color: greenyellow;
+width: 700px;
+position: relative;
+top: 8.5%;
+left: 240px;
+padding: 45px;
+height: 125px;
+}
+
+.AnnyangBox h2 {
+  text-align: center;
+  top: -50px;
+  position: relative;
+}
+
+.AnnyangBox p {
+  text-align: left;
+  top: -50px;
+  right: 25px;
+  position: relative;
+}
+
+#Enable {
+  position: relative;
+  top: -50px; 
+  left: 385px;
+  width: 350px;
+  height: 75px;
+}
+#Disable {
+  position: relative;
+  top: -123.8px; 
+  left: -40px;
+  width: 350px;
+  height: 75px;
 }
 
 .Dogs-Button:hover {

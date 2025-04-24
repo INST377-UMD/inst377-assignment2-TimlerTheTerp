@@ -20,8 +20,41 @@ body {
     color: whitesmoke;
   }
   
-  .Voice {
+/*Annyang Box */
+.AnnyangBox {
+    background-color: greenyellow;
+    width: 700px;
     position: relative;
-    bottom: 5.5%;
-    left: 1150;
-  }
+    top: 8.5%;
+    left: 240px;
+    padding: 45px;
+    height: 125px;
+    }
+    
+    .AnnyangBox h2 {
+      text-align: center;
+      top: -50px;
+      position: relative;
+    }
+    
+    .AnnyangBox p {
+      text-align: left;
+      top: -50px;
+      right: 25px;
+      position: relative;
+    }
+    
+    #Enable {
+      position: relative;
+      top: -50px; 
+      left: 385px;
+      width: 350px;
+      height: 75px;
+    }
+    #Disable {
+      position: relative;
+      top: -123.8px; 
+      left: -40px;
+      width: 350px;
+      height: 75px;
+    }

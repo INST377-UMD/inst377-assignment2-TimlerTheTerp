@@ -24,4 +24,10 @@ body {
     position: relative;
     bottom: 5.5%;
     left: 1150;
+    
+  /*laptop:
+  bottom: 5.5%;
+  left: 1150;
+  PC: bottom: 2.5%;
+  left: 2425;; */
   }

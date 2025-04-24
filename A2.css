@@ -22,8 +22,13 @@ body {
 
 .Voice {
   position: relative;
+  bottom: 2.5%;
+  left: 2425;
+  /*laptop:
   bottom: 5.5%;
   left: 1150;
+  PC: bottom: 2.5%;
+  left: 2425;; */
 }
 
 
@@ -129,9 +134,17 @@ transform: translateY(0);
   padding: 50px;
   margin: 30px;
   position: relative;
+  top: 40%;
+  left: 900px;
+  
+/*Laptop:
   top: 18%;
   left: 285px;
+  PC:
+  top: 40%;
+  left: 900px;*/
 }
+
 .QuoteBox h2{
   position: relative;
   top: -70px; 

@@ -28,3 +28,13 @@ function Annyang() {
     }
 }
 /*REQUIRED ABOVE */
+
+function cChart() {
+    const labels = Utils.months({count: 7});
+    const config = {
+        type: 'line',
+        data: data,
+      };
+    }
+
+window.onload = cChart

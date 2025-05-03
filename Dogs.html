@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="Dogs.css">
+    </head>
+
+
+    <body>
+         <!--Import Annyang-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+
+         <!--Javascript-->
+         <script src="Dogs.js"></script>
+         
+
+        <!--REQURIED BELOW-->
+        <!--Introduction to Headers Page-->
+        <h2>Dogs Page</h2>
+
+        <!--Navigation-->
+        <div class ="Navigate">
+            <ul>
+                <li><a href="Assignment-2.html">Home</a></li>
+                <li><a href="Stocks.html">Stocks</a></li>
+                <li><a href="Dogs.html">Dogs</a></li>
+            </ul>
+        </div>
+        <!--REQUIRED ADOVE-->
+        <h2>OMG DOGS ARE CUTE!!!!!</h2>
+
+        <!--Dog Images-->
+        <div style="width:1200px; height:1000px" data-simple-slider id="InsertDogs">
+        <!--JavaScript Will Import Photos Here-->
+        </div>
+
+        <div id="DogButtons">
+        <!--JavaScript Will Import Buttons with Their Respective Dogs-->
+        </div>
+
+        <div id="DogInfo">
+            <!--JavaScript Will Import  Respective Dog Informations Here-->
+        </div>
+
+         <!--REQURIED BELOW-->
+         <div class = "AnnyangBox">
+            <h2>Want to use your voice to command the navigation?</h2>
+            <p>Here, this tutorial would guide you in order if you want to use your voice to direct</p>
+            <p>You can command yourself to a page, change a color, or even have the command say hi to you if you say hi!</p>    
+                <div class = "Voice">
+                    <button onclick="Annyang()" id="Enable">Toggle On</button>
+                    <button onclick="NoAnnyang()" id="Disable">Toggle Off</button>
+                </div> 
+        </div>
+        <!--REQUIRED ADOVE-->
+    </body>
+</html>

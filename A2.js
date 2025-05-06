@@ -13,7 +13,7 @@
            },
  
            'Dogs': () => {
-               window.location.href = "Stocks.html";
+               window.location.href = "Dogs.html";
            }
            }
  

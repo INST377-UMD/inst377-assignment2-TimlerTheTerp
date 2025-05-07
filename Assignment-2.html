@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="A2.css">
+
+         <!--REQUIRED API -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+
+        <!--Javascript-->
+        <script src="A2.js" defer></script>
+    </head>
+
+
+    <body>
+
+        <!--REQURIED BELOW-->
+        <!--Introduction to Headers Page-->
+        <h2>Activites Page</h2>
+
+        <!--Navigation-->
+        <div class ="Navigate">
+            <ul>
+                <li><a href="Assignment-2.html">Home</a></li>
+                <li><a href="Stocks.html">Stocks</a></li>
+                <li><a href="Dogs.html">Dogs</a></li>
+            </ul>
+        </div>
+        <!--REQUIRED ADOVE-->
+
+        <!--Another Header-->
+        <h2>Please Interact with the Website</h2>
+
+        <!--Selection Boxes-->
+        <div id = "Selection">
+            <button class="Stocks-Button" role="button" onclick="location.href='Stocks.html'">Stocks</button>
+            <button class="Dogs-Button" role="button" onclick="location.href='Dogs.html'">Dogs</button>
+        </div>
+
+        <!--Quote Generator-->
+        <div class = "QuoteBox">
+            <h2>Quote of the Day!</h2>
+            <p id ="Quote"></p>
+            <small id ="Author"></small>
+        </div>
+
+        <!--REQURIED BELOW-->
+        <div class = "AnnyangBox">
+            <h2>Want to use your voice to command the navigation?</h2>
+            <p>Here, this tutorial would guide you in order if you want to use your voice to direct</p>
+            <p>You can command yourself to a page, change a color, or even have the command say hi to you if you say hi!</p>    
+            <div class = "Voice">
+                <button onclick="Annyang()" id="Enable">Toggle On</button>
+                <button onclick="NoAnnyang()" id="Disable">Toggle Off</button>
+             </div> 
+        </div>
+        
+        <!--REQUIRED ADOVE-->
+    </body>
+
+</html>
